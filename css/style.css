@@ -252,5 +252,14 @@ align-items:center;
     height:8px;
 }
 
+.offer-container{
+    height:20px;
+}
+
+.offer-text{
+    font-size:12px;
+    font-weight:300;
+}
+
 
 
