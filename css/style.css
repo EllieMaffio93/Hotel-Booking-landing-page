@@ -243,5 +243,14 @@ align-items:center;
     height:45px;
 }
 
+.star{
+    color:#F2994A;
+    font-size:8px;
+}
+
+.star-container{
+    height:8px;
+}
+
 
 
