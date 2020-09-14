@@ -276,7 +276,6 @@ align-items:center;
 
 .slider-booking-map-container{
     justify-content: space-between;
-    height:450px;
     
 }
 
@@ -292,7 +291,6 @@ align-items:center;
 
 .booking-map-container{
     flex-basis:23%;
-    height:450px;
     
 }
 
@@ -336,6 +334,36 @@ align-items:center;
 .map{
     height:213px;
     margin-top:27px;
+}
+
+/*CARDS MENU*/
+
+.cards-menu-container{
+    height:35px;
+    margin-top:67px;
+    justify-content: space-between;
+}
+
+.cards-menu{
+    margin:0;
+}
+
+.cards-menu-link{
+    color:#333333;
+    text-decoration:none;
+}
+
+.cards-menu-link:hover{
+    color:#EC1F46;
+}
+
+.cards-menu-link-box {
+    font-size:14px;
+    text-decoration:none;
+}
+
+.cards-menu-link-box:hover{
+    border-bottom:4px solid #EC1F46;
 }
 
 
