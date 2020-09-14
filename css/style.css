@@ -44,6 +44,10 @@ h5{
 .pink-text{
     color:#EC1F46;
 }
+
+.light-blue-section{
+    background-color:#F5FAFE;
+}
 /*NAVBAR TOP*/
 
 .container{
@@ -366,4 +370,42 @@ align-items:center;
     border-bottom:4px solid #EC1F46;
 }
 
+/*PACKAGE SUMMERY*/
+
+.summery-top{
+    margin-top:40px;
+}
+
+.package-summery-container{
+    justify-content: space-between;
+    flex-basis:45%;
+    margin-top:45px;
+    
+}
+
+.package-highlights{
+    flex-basis:45%;
+    height:200px;
+    background-color:#ffffff;
+}
+
+.offer-details{
+    flex-basis:45%;
+    height:200px;
+    background-color:#ffffff;
+    
+}
+
+.blue-section-summery{
+    flex-basis:45%;
+    background-color: #0a223d;
+    color:#ffffff;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    padding-left:24px;
+}
+
+.summery-title{
+    line-height:50px;
+}
 
