@@ -11,6 +11,14 @@ body{
 
 h1{
     font-size:24px;
+    margin:0;
+
+}
+
+h2{
+    font-size:18px;
+    margin:0;
+
 }
 
 h3{
@@ -20,6 +28,8 @@ h3{
 
 h4{
     font-size:10px;
+    margin:0;
+
 }
 
 h5{
@@ -250,6 +260,7 @@ align-items:center;
 
 .star-container{
     height:8px;
+    margin-bottom:16px;
 }
 
 .offer-container{
@@ -261,5 +272,70 @@ align-items:center;
     font-weight:300;
 }
 
+/*SLIDER BOOKING AND MAP*/
+
+.slider-booking-map-container{
+    justify-content: space-between;
+    height:450px;
+    
+}
+
+.slider{
+    flex-basis:70%;
+    height:477px;
+    border-radius:8px;
+    background-image:url(https://s3-alpha-sig.figma.com/img/2b6d/bbb7/c51053944d88e342b77ef771783c0dd3?Expires=1601251200&Signature=JoqR~VTh-56uxyazT-4DqGTSTPv8qH~3J61SC3yZmJkf4MOxEakHkMCbOUOzaZ6ZM5JgmLGa3G13mpqiYR2773RuP5jcycEq6j~5l5NJISrvKG7yVcQg5EIRbGDnwbh8nNsgw~41~SzJX9aw7z8Dbs~7NjYl-jQSj9y4uRpwfGO0h730JqGlPsmcVSWJLHPlKTkWn4BpwTZ92Lc111hxRFfc8wrWEZ-UBQrTW-gIdHj6zSv6x59vv31LRKkYukiwCbqqCnL2mYCeOerGeK6woFiSbrKWx~zB~vqKm5NIh7zX4Z7XHa2jheQcnFw44v4Bz07D69809WdoNsBu6j7cqg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+.booking-map-container{
+    flex-basis:23%;
+    height:450px;
+    
+}
+
+.booking-blue{
+    height:210px;
+    padding-top:26px;
+    color:#ffffff;
+    background-color:#0a223d;
+    border-radius:8px;
+
+}
+.booking{
+    display:flex;
+    justify-content: space-around;
+}
+
+.text-margin{
+    margin-bottom:9px;
+}
+
+.text-margin-triple{
+    margin-bottom:35px;
+}
+
+.booking-button{
+    width:90%;
+    height:45px;
+    margin:0 auto;
+    background-color:#EC1F46;
+    border-radius:4px;
+    color:#ffffff;
+    text-align:center;
+    line-height:45px;
+    margin-top:17px;
+}
+
+.booking-icon{
+    margin-right:5px;
+}
+
+.map{
+    height:213px;
+    margin-top:27px;
+}
 
 
