@@ -506,3 +506,12 @@ align-items:center;
     height:182px;
     background-color:#ffffff;
 }
+
+/*OTHER ACTIVITIES*/
+
+.other-activities-title{
+    text-align:center;
+    font-size:36px;
+    padding-top:105px;
+    padding-bottom:73px;
+}
