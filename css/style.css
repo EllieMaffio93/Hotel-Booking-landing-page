@@ -443,3 +443,18 @@ align-items:center;
 
 /*PACKAGE SUMMERY DETAILS*/
 
+.package-summery-container-100{
+    justify-content: space-between;
+    flex-basis:100%;
+    margin-top:45px;
+}
+
+.blue-section-summery-100{
+    flex-basis:100%;
+    background-color: #0a223d;
+    color:#ffffff;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    padding-left:24px;
+ 
+}
