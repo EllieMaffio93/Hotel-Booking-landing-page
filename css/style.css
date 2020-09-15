@@ -384,19 +384,19 @@ align-items:center;
 
 .package-summery-container{
     justify-content: space-between;
-    flex-basis:45%;
+    flex-basis:47%;
     margin-top:45px;
     
 }
 
 .package-highlights{
-    flex-basis:45%;
+    flex-basis:47%;
     height:200px;
     background-color:#ffffff;
 }
 
 .offer-details{
-    flex-basis:45%;
+    flex-basis:47%;
     height:200px;
     background-color:#ffffff;
     
@@ -514,4 +514,136 @@ align-items:center;
     font-size:36px;
     padding-top:105px;
     padding-bottom:73px;
+}
+
+.trip-advisor-container{
+    justify-content: space-between;
+}
+
+.trip-advisor-large{
+    display:flex;
+    flex-basis:65%;
+    height:500px;
+    align-items:center;
+}
+
+.trip-advisor-image-left{
+    background-image:url(https://s3-alpha-sig.figma.com/img/6d11/1d35/4e67c75fe4699da25a33607a81bf7e72?Expires=1601251200&Signature=JxMeGRjn-vmjcCQzmr4umwkVXNOzuaPs4bL28c54WYpK6mKHlW8l0GQAwq0EUX2ZF2V5ymB-Ty1-XOLKw92oPiT518o6GYLB5oghfunQ86jcbfOMXLe~79lGB~1jyHT1rsmlKOmpCbvgwUZcgxJ34Lgpdx6Zw6b2yv4NqsGuGpJeFCSRgmk3syme6oBQm89otWC64nRIswImNZ9CmJahrk3C4bnhEt7eJPZhKdGTJH843zHJmTs6umI5o-NGB3yFcjMegixkFRhl9tUw9DwTbikON~y4~SNCLGDQk1d3dk4gdzFuuq91kHfshXDBDasH63xLCj8lqPWnaOpalDCdyw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    flex-basis:50%;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+}
+
+.trip-advisor-text-right{
+    flex-basis:50%;
+    height:500px;
+    background-color:#0a223d;
+    color:#ffffff;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    padding-left:44px;
+    padding-right:21px;
+}
+
+.star-advisor{
+    margin-top:46px;
+}
+
+.advisor-paragraph{
+    font-size:16px;
+    font-weight:300;
+    margin-top:27px;
+    margin-bottom:52px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.advisor-section{
+    width:70%;
+    display:flex;
+    align-items:center;
+    margin-bottom:11px;
+}
+
+.old-price{
+    font-weight:300;
+    text-decoration: line-through;
+    margin-top:57px;
+}
+
+.price-and-button{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:40px;
+}
+
+.price{
+    font-weight:bold;
+    font-size:24px;
+    margin-top:10px;
+}
+
+.advisor-button{
+    flex-basis:25%;
+    height:40px;
+    background-color:#EC1F46;
+    color:#ffffff;
+    text-align:center;
+    line-height:40px;
+    border-radius:4px;
+}
+
+.trip-advisor-regular{
+    flex-basis:32%;
+    flex-direction:column;
+    background-color:#0a223d;
+    border-radius:8px;
+    height:500px;
+    align-items: center;
+}
+
+.trip-advisor-regular-image{
+    height:250px;
+    width:100%;
+    background-image:url(https://s3-alpha-sig.figma.com/img/97a7/9d1a/68c74b0571bbf58dc46203a9dbb16afa?Expires=1601251200&Signature=BOp~2ahs0JE0Fa9MggL~dP8WMMa-t5Mr14gpt9WiYYhCHOydZ1zyL~PU087wdzp-ZWJqxRr8oElTwGZwqw6T9SVP2EoSNyMYXg1QgC0jveY9VGjdu3fhAQ9Y47Ypcjh56C43NX9PX5hRVI0872f0EcclpPgsJgSup39mn~v337Nn0aDzGl6o83sglOjkqxCq~YWVNL4pIXuePtVycvRWdM9pI3KLZ~JNjd2s0LdmgZkhU-savxpLB3KHPbIlREWydvaCAA895r1u4M8WIRAkAT~eSv2B~IcFirMuOnLoY2TklmMGoKfhMPypwpLIWfNH72B5BDDS3pxrUG8P-8RBlw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+
+.trip-advisor-regular-text{
+    height:250px;
+    padding-left:32px;
+    padding-right:21px;
+    padding-top:30px;
+    padding-bottom:25px;
+    color:#ffffff;
+    
+}
+
+.advisor-regular-section{
+    margin-top:23px;
+}
+
+.old-price-regular{
+    font-weight:300;
+    text-decoration: line-through;
+    margin-top:20px;
+}
+
+.price-regular{
+    font-weight:bold;
+    font-size:24px;
+}
+
+.trip-advisor-container-second{
+    justify-content: space-between;
+    margin-top:30px;
 }
