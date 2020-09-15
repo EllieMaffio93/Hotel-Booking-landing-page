@@ -646,4 +646,64 @@ align-items:center;
 .trip-advisor-container-second{
     justify-content: space-between;
     margin-top:30px;
+    padding-bottom:65px;
+}
+
+.white-line{
+    width:100%;
+    height:5px;
+    background-color:#ffffff;
+}
+
+/*GUEST REVIEWS*/
+
+.guest-reviews-container{
+    width:100%;
+    height:550px;
+}
+
+.guest-reviews-title{
+    text-align:center;
+    font-size:36px;
+    padding-top:40px;
+    padding-bottom:115px;
+
+}
+
+.reviews-container{
+    width:70%;
+    height:280px;
+    margin:0 auto;
+    background-color:#ffffff;
+    border-radius:8px;
+    position:relative;
+    text-align:center;
+   
+}
+
+.guest-picture{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-45px;
+    left:46%;
+    background-image:url(https://s3-alpha-sig.figma.com/img/900d/5e93/52b690406aa5d4b499fa8dd65b33a031?Expires=1601251200&Signature=T9vrlA4CCkCAyBvP5FdQTSGxi4HsKUxmR1yOSC7j853wxERL0BxMzql-eb9VPWjlaS1C0~XufvDreWIbNjeWRcd~WkJ0RbAKJ2Ba-R3oz1re4VfT4nqFOB5BON9r9CwgspC3VdSJt5tZprU7pvyv1n3ymZaWpZqUgCK-cfcGyM3Sm3HYc4ovV3XO9dqAEk0ZBMFqqsOMe2JshHrSQct3LsChR3rz~Av4zjsPSL41R-VKJwbcHQe9xixSL2FKdoW68O-qZFYBrd0bnBfUIHP9WNI4tWwhhRb7V6ePfVrEwbOpyGykUbVY3HMYldDMJF9USyavJMuKxBJyqYeKEZ9znQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.guest-name-container{
+    width:100%;
+    position:absolute;
+    top:54px;
+    text-align:center;
+}
+
+.guest-name{
+    color:#EC1F46;
+    text-align:center;
+    font-weight:300;
+    font-size:12px;
 }
