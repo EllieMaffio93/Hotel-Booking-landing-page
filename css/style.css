@@ -409,3 +409,37 @@ align-items:center;
     line-height:50px;
 }
 
+.package-summery-body{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-left:24px;
+}
+
+.package-group-sx, .package-group-dx{
+    height:96px;
+    flex-basis:50%;
+    padding-top:29px;
+}
+
+.package-section{
+    flex-basis:100%;
+    display:flex;
+    margin-bottom:20px;
+}
+
+.section-sx{
+    flex-basis:10%;
+}
+
+.section-dx{
+    flex-basis:80%;
+}
+
+.text-section{
+    font-size:12px;
+    font-weight:300;
+}
+
+/*PACKAGE SUMMERY DETAILS*/
+
