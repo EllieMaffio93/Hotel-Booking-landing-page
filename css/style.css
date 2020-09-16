@@ -618,6 +618,39 @@ align-items:center;
     border-top-left-radius:8px;
 }
 
+.trip-advisor-regular-image-sx{
+    height:250px;
+    width:100%;
+    background-image:url(https://s3-alpha-sig.figma.com/img/2f2f/41fc/a09d43f48e88b6bfacb2632901041501?Expires=1601251200&Signature=T9Sjdur~RR~2c3ALo12t0LH3KRyfUKA0zckve5Y6ZiiSTTQDlfBPGcoaRZ9rMc5jkj5JSsad8NN-qlJW96rwxo2rQyLUdTbI7mBmW-v-0MA5HXu7MFJXwthliTsHEOeFYy5BKoNdHDBzr9KDljHqC~2QKbu0Bj2uFnjKPgkRiQCgnpXF77kQVimFGw4BSVZVSQG6RFGdDtph0q3782NQBltUivxAh52mDQguOYxjtnm01bpq12anfPQvoP7Tb8jIYJXwqCPT6C9XjEoQf6rxAKLYCbTlVxihLkNHrem5-hBGPA1JWsax8N1Cm7vpZT4TZFXL3NBZBOOmV4ER0x6jLQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+
+.trip-advisor-regular-image-center{
+    height:250px;
+    width:100%;
+    background-image:url(https://s3-alpha-sig.figma.com/img/09b2/c682/d655bc4f88f94ba3b92c9d2873a9ecf9?Expires=1601251200&Signature=BsOYUyDrfTWSfPrlxYOgQ0p5lG2fUcM3C7tN2gkHUp6wpvm~UzZ00O1XkBO1XqlE0mxVkv4PEhHkHIJy9E7dg4ZUt1kv03IdQRNPRIXJ4shMBId~awTgrJBM667huMbZHs-x3RmfyfxpFrt1KrxxdRjNFhluUlZ9b1J8oU~AtqEeu~nz~Z7dIcplNeZNnAhy4uS9R5DsPJkNZf0lCwB65GiaqEwwz4ANLnFzl3CPvK-FwqOrtDv4u2d-OkloSzErsraUrL7q1Ep5BM2AxWV5je0DAXw2-9oWwLxD~6edk8cB5o1jVfrJJbl6X0CSV3~5GYUyJ5cdtlZdd3oAvC3CEQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+
+.trip-advisor-regular-image-dx{
+    height:250px;
+    width:100%;
+    background-image:url(https://s3-alpha-sig.figma.com/img/096b/bab9/d2b00dd1fc743796cbf6b959a6347d51?Expires=1601251200&Signature=afTbCnYiyE8vz2t6jHrSmaHzF-dAW8fuz0E4CoKAOkopnJNjO1h6LmH~TTsqA5hTlYzbfD4QzrwrWC3EGGlv8Gd9hteD6izkz0lyVfaLKOYsJFbGxPGbYDNGNUvyyG1vQTkTAInunJKRJYdp-nKyRHd9zzNhTDYsNuhUM0yJKb0QOCDtODWssqtwmY23Vg1LT9ePtnKrCrqZ5TIkGlGg2zl1lKTUbJfWNykfH9KMdOri6MbdI0inPc3cOow3n2CMpSX-wvmCnU6aBLT7Yl5RdcHxEa26aBtKtnPEmvNLJ4B2EpmNuGSfOI-rlxVWbYfksmU0biMCrI3RQ~OtgRtBHg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+
 .trip-advisor-regular-text{
     height:250px;
     padding-left:32px;
