@@ -53,14 +53,56 @@ h5{
 .container{
     display:flex;
     flex-basis:100%;
-    padding-right:265px;
-    padding-left:265px;
+    padding-right:365px;
+    padding-left:365px;
+    
 }
 
 .container-no-flex{
     flex-basis:100%;
-    padding-right:265px;
-    padding-left:265px; 
+    padding-right:365px;
+    padding-left:365px; 
+}
+
+@media (max-width:1901px){
+    .container{
+        padding-right:265px;
+        padding-left:265px;
+    
+    }
+    .container-no-flex{
+        padding-right:265px;
+        padding-left:265px;
+    
+    }
+
+}
+
+@media (max-width:1601px){
+    .container{
+        padding-right:165px;
+        padding-left:165px;
+    
+    }
+    .container-no-flex{
+        padding-right:165px;
+        padding-left:165px;
+    
+    }
+
+}
+
+@media (max-width:1450px){
+    .container{
+        padding-right:65px;
+        padding-left:65px;
+    
+    }
+    .container-no-flex{
+        padding-right:65px;
+        padding-left:65px;
+    
+    }
 }
 
 .navbar-top{
