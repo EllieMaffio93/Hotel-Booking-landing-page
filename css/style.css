@@ -53,14 +53,14 @@ h5{
 .container{
     display:flex;
     flex-basis:100%;
-    padding-right:365px;
-    padding-left:365px;
+    padding-right:265px;
+    padding-left:265px;
 }
 
 .container-no-flex{
     flex-basis:100%;
-    padding-right:365px;
-    padding-left:365px; 
+    padding-right:265px;
+    padding-left:265px; 
 }
 
 .navbar-top{
