@@ -53,14 +53,14 @@ h5{
 .container{
     display:flex;
     flex-basis:100%;
-    padding-right:165px;
-    padding-left:165px;
+    padding-right:365px;
+    padding-left:365px;
 }
 
 .container-no-flex{
     flex-basis:100%;
-    padding-right:165px;
-    padding-left:165px; 
+    padding-right:365px;
+    padding-left:365px; 
 }
 
 .navbar-top{
@@ -572,7 +572,7 @@ align-items:center;
 .old-price{
     font-weight:300;
     text-decoration: line-through;
-    margin-top:57px;
+    margin-top:27px;
 }
 
 .price-and-button{
