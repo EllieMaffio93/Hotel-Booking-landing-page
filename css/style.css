@@ -853,3 +853,17 @@ align-items:center;
     margin-bottom:0;
 }
 
+.guest-review-text{
+    padding-top:16px;
+    padding-right:95px;
+    padding-left:99px;
+    margin:0 auto;
+    text-align:justify;
+}
+
+.review-text{
+    font-weight:300;
+    font-size: 12px;
+    line-height: 160%;
+}
+
