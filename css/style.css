@@ -678,6 +678,8 @@ align-items:center;
     border-radius:8px;
     position:relative;
     text-align:center;
+    flex-direction:column;
+    align-items: center;
    
 }
 
@@ -687,7 +689,8 @@ align-items:center;
     border-radius:50%;
     position:absolute;
     margin-top:-45px;
-    left:46%;
+    left: 50%;
+    transform: translate(-50%, 0);
     background-image:url(https://s3-alpha-sig.figma.com/img/900d/5e93/52b690406aa5d4b499fa8dd65b33a031?Expires=1601251200&Signature=T9vrlA4CCkCAyBvP5FdQTSGxi4HsKUxmR1yOSC7j853wxERL0BxMzql-eb9VPWjlaS1C0~XufvDreWIbNjeWRcd~WkJ0RbAKJ2Ba-R3oz1re4VfT4nqFOB5BON9r9CwgspC3VdSJt5tZprU7pvyv1n3ymZaWpZqUgCK-cfcGyM3Sm3HYc4ovV3XO9dqAEk0ZBMFqqsOMe2JshHrSQct3LsChR3rz~Av4zjsPSL41R-VKJwbcHQe9xixSL2FKdoW68O-qZFYBrd0bnBfUIHP9WNI4tWwhhRb7V6ePfVrEwbOpyGykUbVY3HMYldDMJF9USyavJMuKxBJyqYeKEZ9znQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
     background-size:cover;
     background-position:center;
@@ -703,7 +706,6 @@ align-items:center;
 
 .guest-name{
     color:#EC1F46;
-    text-align:center;
     font-weight:300;
     font-size:12px;
 }
