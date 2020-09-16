@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+html{
+    width:1440px;
+}
+
 body{
     font-family: 'Mulish', sans-serif;
     color:#333333;
@@ -53,26 +57,26 @@ h5{
 .container{
     display:flex;
     flex-basis:100%;
-    padding-right:365px;
-    padding-left:365px;
+    padding-right:165px;
+    padding-left:165px;
     
 }
 
 .container-no-flex{
     flex-basis:100%;
-    padding-right:365px;
-    padding-left:365px; 
+    padding-right:165px;
+    padding-left:165px; 
 }
 
 @media (max-width:1901px){
     .container{
-        padding-right:265px;
-        padding-left:265px;
+        padding-right:165px;
+        padding-left:165px;
     
     }
     .container-no-flex{
-        padding-right:265px;
-        padding-left:265px;
+        padding-right:165px;
+        padding-left:165px;
     
     }
 
@@ -94,13 +98,13 @@ h5{
 
 @media (max-width:1450px){
     .container{
-        padding-right:65px;
-        padding-left:65px;
+        padding-right:165px;
+        padding-left:165px;
     
     }
     .container-no-flex{
-        padding-right:65px;
-        padding-left:65px;
+        padding-right:165px;
+        padding-left:165px;
     
     }
 }
@@ -146,7 +150,7 @@ align-items:center;
     }
 
 .navbar-box-1{
-    flex-basis:16%;
+    flex-basis:17%;
     height:24px;
     
 }
@@ -481,7 +485,7 @@ align-items:center;
 }
 
 .section-dx{
-    flex-basis:80%;
+    flex-basis:90%;
 }
 
 .text-section{
