@@ -1008,11 +1008,79 @@ align-items:center;
     font-weight:300;
 }
 
+/*FOOTER*/
+
 footer{
     display:flex;
     flex-direction: column;
     height:900px;
     color:#ffffff;
-    
+    background-color:#0a223d;
+    padding-left:165px;
+    padding-right:165px;
+}
+
+.first-footer-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:111px;
+    height:223px;
+}
+
+.ffg-box-1{
+    align-items: center;
+}
+
+.ffg-box-2, .ffg-box-3, .ffg-box4{
+    display:flex;
+    flex-direction:column;
+}
+
+.ffg-box-3{
+    flex-basis:315px;
+}
+
+.footer-logo{
+    font-family: 'Luckiest Guy', cursive;
+    font-size:64px;
+    color:#ffffff;
+    margin-top:28px;
+}
+
+.ffg-title{
+    margin-bottom:28px;
+}
+
+.ffg-list{
+    list-style-type: none;
+    padding-left:0;
+}
+
+.ffg-list-item{
+    color:#bdbdbd;
+    font-size:14px;
+    font-weight:300;
+    line-height:23px;
+}
+
+.ffg-social-info{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:23px;
+}
+
+.footer-social-icons{
+    flex-basis:86px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.f-icon{
+    background-color:#BDBDBD;
+    width:24px;
+    height:24px;
+    border-radius:50%;
 }
 
