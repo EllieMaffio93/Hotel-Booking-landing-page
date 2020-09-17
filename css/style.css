@@ -1079,8 +1079,12 @@ footer{
 
 .f-icon{
     background-color:#BDBDBD;
+    color:#0a223d;
+    font-size:13px;
     width:24px;
     height:24px;
     border-radius:50%;
+    text-align:center;
+    line-height:24px;
 }
 
