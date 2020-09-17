@@ -962,3 +962,57 @@ align-items:center;
     color:#ffffff;
 }
 
+/*OTHER ACTIVITIES*/
+
+.activities-top{
+    margin-top:60px;
+}
+
+.other-activities-container{
+    height:416px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-other-activity{
+    margin-top:56px;
+    height:255px;
+    flex-basis:255px;
+    display:flex;
+    flex-direction:column;
+    background-position: center!important;
+    background-size:cover!important;
+    background-repeat:no-repeat!important;
+    border-radius:6px;
+}
+
+.other-activity-text{
+    color:#ffffff;
+    font-size:16px;
+    margin-top:143px;
+    margin-left:26px;
+}
+
+.other-activity-button{
+    background-color:#EC1F46;
+    color:#ffffff;
+    width:100px;
+    margin-top:18px;
+    margin-left:26px;
+    height:30px;
+    border-radius:4px;
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+    font-weight:300;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    height:900px;
+    color:#ffffff;
+    
+}
+
