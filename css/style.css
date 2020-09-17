@@ -871,3 +871,48 @@ align-items:center;
     line-height: 160%;
 }
 
+/*NEWSLETTER SECTION*/
+
+.newsletter-container{
+    height:260px;
+    align-items:center;
+    justify-content: space-around;
+    background-image: url(https://s3-alpha-sig.figma.com/img/d975/bd93/8a2bc6b23132fa51dcedea4f0880ba8c?Expires=1601251200&Signature=VeVlvUXz529x0A432vZxkEy-AhdimNQ6k0wIiuJWkGu~D0BWicNATVaDV8R21oQ~1JGR~yCX-2v6xm1ZaOjrOdooF9PhbRi4GeS-wCQtcmvue2jEmlQmUfSoEqNWV3yihcP67~XgxXrUOLCyysL2A7EkleyVoGZveOvMxLCsArU~YGtSlvjQtGe2zYUepM-4BNcDGVrnA7IY6eOexhMaE67-~Dt1eNRtzqYtYtZKXzvSSmNOYXBht0t7ZY2vuXQT3o1j0CHs6XEPJYTPzqHFNduX7nP4YgrgJwCgX0j~U1e4KLxpfe5RRJbD1BMPqO7noGVUsMpZ4W4N5GfmZffxfQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+}
+
+.newsletter-container:after{
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color:rgba(10, 34, 61, 0.8);
+}
+
+
+.newsletter-text{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    z-index:2;
+
+}
+.text-subscribe{
+    font-size:24px;
+    font-weight: 300;
+    color:#ffffff;
+    position:relative;
+    z-index:2;
+}
+
+.text-newsletter{
+    font-size:36px;
+    font-weight:300;
+    color:#ffffff;
+    position:relative;
+    z-index:2;
+
+}
