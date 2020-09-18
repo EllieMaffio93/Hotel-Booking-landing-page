@@ -1093,7 +1093,7 @@ footer{
 .second-footer-grid{
     display:flex;
     flex-direction:row;
-    height:302px;
+    height:316px;
     margin-top:93px;
 }
 
@@ -1182,4 +1182,30 @@ footer{
     font-size:12px;
     color:#ffffff;
     font-weight:300;
+}
+
+.third-footer-grid{
+    display:flex;
+    flex-basis:100%;
+    height:114px;
+    align-items:center;
+    justify-content:flex-end;
+    bottom:0;
+    margin-top:46px;
+}
+
+.payment-footer-info{
+    flex-basis:136px;
+    height:22px;
+    background-image:url(https://s3-alpha-sig.figma.com/img/2526/a20c/f523b36de4c6ce015db0287684004d42?Expires=1601251200&Signature=FAU2Pbfdm3Y05i63falI74krh7E~tqXIBrRIg269oxqRKbFqA02tluxO2awsoydWdeKrD9morFQLIgj4WdR0sV~d1GCsiFATja1BUo3lwTz21Jgfn4cciSzp5ngTBhqTf9lfA5DVv9M5ewpkDvG645sSE-vvPS6zWiq~GGv1ayhc2lnGW7t1vixlpNbnMbiI5Fmt1kAyH~GKPIPJu9Dzma-i0e-Qk-r~umVysmo7Dz6ggUDFlhDzzSsm8aEF97SqHyvXYJ1FysuvLUQF250mz3LHA1MpHtnVTgAP7TD7HPrDK3Pa7hvCIb-q4Eqqm58AR-bfXptN5cUugTcd7Au4jg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.tfg-text-box{
+    flex-basis:283px;
+    display:flex;
+    justify-content: space-between;
+    margin-right:277px;
 }
