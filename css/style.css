@@ -237,7 +237,10 @@ align-items:center;
 .profile-pic{
     width:40px;
     height:40px;
-    background-color:blue;
+    background-image:url(https://s3-alpha-sig.figma.com/img/0449/6d74/1f52f742a54e854985e031616bd0b26f?Expires=1601251200&Signature=EXtyQlfGqbTSlzUWJry5YYhww6KSk4jamoGmYdORuy7govqSiM9bU6~N-21wntk1yUSHSvppoFUroUOOBVWoDxHbig17pgeTZmoVI26RlnVsJpnQTnlml6xpFoZzg8rKqcT7MWuvtadBCfxzH~Tp9lHhenDcPtn2OqaweJTtMLK3ZQTgOPEZDNTULmG9lhI-FBn95rxDDRGPVz4hL6RF3GEkTPXA9bPi9BAXAfUpxt6Bg97taqjFtcD1y43WSkzdwQGeM56pvaDNXzFVE3T7NAGxHal8JkNcpNd07ekIVCiu6O-04a3NAQQGOHSltQT5UG4fgqL6iyFbS~WeH3pK4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
     border-radius:50%;
 }
 
@@ -297,6 +300,24 @@ align-items:center;
     justify-content:space-between;
     align-items:center;
     height:100px;
+}
+
+.hotel-name-sub-box-1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.hotel-name-flash-offer{
+    background-color:#EC1F46;
+    border-radius:4px;
+    color:#ffffff;
+    width:70px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    margin-left:14px;
+    font-weight:300;
 }
 
 .hotel-name-box-2{
