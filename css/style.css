@@ -367,7 +367,7 @@ align-items:center;
 }
 
 .booking-map-container{
-    flex-basis:350px;;
+    flex-basis:350px;
     
 }
 
@@ -590,7 +590,7 @@ align-items:center;
 
 .trip-advisor-large{
     display:flex;
-    flex-basis:65%;
+    flex-basis:730px;
     height:500px;
     align-items:center;
 }
@@ -668,7 +668,7 @@ align-items:center;
 }
 
 .trip-advisor-regular{
-    flex-basis:32%;
+    flex-basis:350px;
     flex-direction:column;
     background-color:#0a223d;
     border-radius:8px;
