@@ -321,7 +321,7 @@ align-items:center;
 }
 
 .hotel-name-box-2{
-    width:5%;
+    width:65px;
     border-radius:4px;
     text-align:center;
     line-height:22px;
@@ -357,7 +357,7 @@ align-items:center;
 }
 
 .slider{
-    flex-basis:70%;
+    flex-basis:728px;;
     height:477px;
     border-radius:8px;
     background-image:url(https://s3-alpha-sig.figma.com/img/2b6d/bbb7/c51053944d88e342b77ef771783c0dd3?Expires=1601251200&Signature=JoqR~VTh-56uxyazT-4DqGTSTPv8qH~3J61SC3yZmJkf4MOxEakHkMCbOUOzaZ6ZM5JgmLGa3G13mpqiYR2773RuP5jcycEq6j~5l5NJISrvKG7yVcQg5EIRbGDnwbh8nNsgw~41~SzJX9aw7z8Dbs~7NjYl-jQSj9y4uRpwfGO0h730JqGlPsmcVSWJLHPlKTkWn4BpwTZ92Lc111hxRFfc8wrWEZ-UBQrTW-gIdHj6zSv6x59vv31LRKkYukiwCbqqCnL2mYCeOerGeK6woFiSbrKWx~zB~vqKm5NIh7zX4Z7XHa2jheQcnFw44v4Bz07D69809WdoNsBu6j7cqg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
@@ -367,12 +367,13 @@ align-items:center;
 }
 
 .booking-map-container{
-    flex-basis:23%;
+    flex-basis:350px;;
     
 }
 
 .booking-blue{
-    height:210px;
+    height:211px;
+    flex-basis:350px;
     padding-top:26px;
     color:#ffffff;
     background-color:#0a223d;
