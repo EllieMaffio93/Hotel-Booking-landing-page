@@ -163,17 +163,19 @@ align-items:center;
 .navbar-box-2{
     display:flex;
     align-items:center;
-    flex-basis:285px;
+    flex-basis:262px;
     height: 40px;
     
 }
 
 .find-bar{
     background-color:#F5FAFE;
-    width: 285px;
+    width: 262px;
     height: 40px;
+    padding-left:23px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
+    border:none;
 }
 
 .find-button{
