@@ -150,28 +150,27 @@ align-items:center;
     }
 
 .navbar-box-1{
-    height:24px;
-    flex-basis:177px;
-    
+    display:flex;
+    justify-content: space-between;
 }
 
 .navbar-title{
     font-family: 'Luckiest Guy', cursive;
     margin:0;
+    margin-right:108px;
 }
 
 .navbar-box-2{
     display:flex;
     align-items:center;
-    margin-left:108px;
-    flex-basis:350px;
+    flex-basis:285px;
     height: 40px;
     
 }
 
 .find-bar{
     background-color:#F5FAFE;
-    width: 350px;
+    width: 285px;
     height: 40px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -180,7 +179,6 @@ align-items:center;
 .find-button{
     width: 65px;
     height: 40px;
-    left: 735px;
     top: 100px;
     background-color:#EC1F46;
     border-top-right-radius: 6px;
@@ -191,7 +189,7 @@ align-items:center;
 .navbar-box-3{
     height: 34px;
     flex-basis:34px;
-    margin-left:238px;
+    margin-left:200px;
     display:flex;
     align-items: center;
 }
