@@ -68,46 +68,6 @@ h5{
     padding-left:165px; 
 }
 
-@media (max-width:1901px){
-    .container{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-    .container-no-flex{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-
-}
-
-@media (max-width:1601px){
-    .container{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-    .container-no-flex{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-
-}
-
-@media (max-width:1450px){
-    .container{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-    .container-no-flex{
-        padding-right:165px;
-        padding-left:165px;
-    
-    }
-}
 
 .navbar-top{
 
